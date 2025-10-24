@@ -31,9 +31,30 @@ main div {
     padding-bottom: 30px;
 }
 
+.container_form {
+    text-align: justify;
+    width: 350px;
+}
+
+form {
+    align-items: center;
+}
+
+form p, form .input {
+    margin-left: 10px;
+    text-align: left;
+}
+
 .forms {
     display: block;
     text-align: center;
+}
+
+.input {
+    padding: 0;
+    margin-top: 12px;
+    text-align: left;
+    display: block;
 }
 
 h2 {
@@ -45,7 +66,8 @@ h2 {
 button {
     width: 200px;
     height: 40px;
-    margin-right: 8px;
+    margin-right: 25px;
+    margin-top: 20px;
     float: right;
 }
 
